@@ -534,6 +534,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 112.79999, y: 18.781641, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!198 &866634881 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 9125212449759046732, guid: cb7cd9b0c56a24d49a40784bd3203ae6,
+    type: 3}
+  m_PrefabInstance: {fileID: 470684491}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1442130082 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: f147a01ef442b2345a3546109476c690,
@@ -581,6 +587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d17620479af1de04083d02533db5367c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  exlposionParticle: {fileID: 866634881}
   jumpForce: 700
   gravityModifier: 1.5
   isOnGround: 1
