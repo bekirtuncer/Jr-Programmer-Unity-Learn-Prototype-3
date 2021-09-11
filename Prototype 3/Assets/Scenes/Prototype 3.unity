@@ -515,6 +515,7 @@ MonoBehaviour:
   jumpForce: 12
   gravityModifier: 1.75
   isOnGround: 1
+  gameOver: 0
 --- !u!1001 &1690780048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -586,7 +587,7 @@ GameObject:
   - component: {fileID: 2014335012}
   m_Layer: 9
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
