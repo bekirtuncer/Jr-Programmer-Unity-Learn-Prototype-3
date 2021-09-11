@@ -244,6 +244,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstaclePrefab: {fileID: 562273479046512387, guid: 40fa0b9f076482d42bece1f04438c314,
     type: 3}
+  startDelay: 1.75
+  repeatRate: 1.5
 --- !u!4 &218357654
 Transform:
   m_ObjectHideFlags: 0
@@ -469,7 +471,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 122
   m_CollisionDetection: 0
 --- !u!114 &1442130085
 MonoBehaviour:
